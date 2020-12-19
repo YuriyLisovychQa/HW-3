@@ -1,0 +1,9 @@
+body {
+    background-color: #2b2a2a;
+    color: lightgrey;
+}
+
+.table {
+    border: 1px solid black;
+    border-radius: 5%;
+}
