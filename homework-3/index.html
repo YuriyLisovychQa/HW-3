@@ -1,33 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <table class="table">
-        <thead class="table-head">
-            <tr>
-                <th>Name</th>
-                <th>Date</th>
-            </tr>
-        </thead>
-        <tbody class="table-body">
-            <tr>
-                <td>File.pdf</td>
-                <td>5 hours ago</td>
-            </tr>
-            <tr>
-                <td>File.pdf</td>
-                <td>a week ago</td>
-            </tr>
-            <tr>
-                <td>File.pdf</td>
-                <td>few seconds ago</td>
-            </tr>
-        </tbody>
-    </table>
+    <main class="container">
+        <div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="table_name">Name <img src="png/caret-down.png" alt="dropdown" class="dropdown"></th>
+                        <th class="table_data">Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="file_pdf"><img class="inbox" src="png/inbox.png" alt="inbox"> File.pdf</td>
+                        <td class="data">5 hours ago <img src="png/ellipsis.png" alt="ellipsis" class="ellipsis"></td>
+                    </tr>
+                    <tr>
+                        <td class="file_pdf"><img class="inbox" src="png/inbox.png" alt="inbox"> File.pdf</td>
+                        <td class="data">a week ago <img src="png/ellipsis.png" alt="ellipsis" class="ellipsis"></td>
+                    </tr>
+                    <tr>
+                        <td class="file_pdf_last"><img class="inbox" src="png/inbox.png" alt="inbox"> File.pdf</td>
+                        <td class="data_last">few seconds ago <img src="png/ellipsis.png" alt="ellipsis" class="ellipsis"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="table_name"><input type="checkbox"> Name <img src="png/caret-down.png" alt="dropdown" class="dropdown"></th>
+                        <th class="table_data">Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="file_pdf"><input type="checkbox"> File.pdf</td>
+                        <td class="data">5 hours ago <img src="png/ellipsis.png" alt="ellipsis" class="ellipsis"></td>
+                    </tr>
+                    <tr>
+                        <td class="file_pdf"><input type="checkbox"> File.pdf</td>
+                        <td class="data">a week ago <img src="png/ellipsis.png" alt="ellipsis" class="ellipsis"></td>
+                    </tr>
+                    <tr>
+                        <td class="file_pdf_last"><input type="checkbox"> File.pdf</td>
+                        <td class="data_last">few seconds ago <img src="png/ellipsis.png" alt="ellipsis" class="ellipsis"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="table_name">Name <img class="dropdown" src="png/caret-down.png" alt="dropdown"></th>
+                        <th class="table_data">Date  
+                            <label for="search">
+                                <input class="table-form__search" type="search" name="search-area" id="search" placeholder="Search">
+                            </label>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="file_pdf"><img class="inbox" src="png/inbox.png" alt="inbox"> File.pdf</td>
+                        <td class="data">5 hours ago <img src="png/ellipsis.png" alt="ellipsis" class="ellipsis"></td>
+                    </tr>
+                    <tr>
+                        <td class="file_pdf"><img class="inbox" src="png/inbox.png" alt="inbox"> File.pdf</td>
+                        <td class="data">a week ago <img src="png/ellipsis.png" alt="ellipsis" class="ellipsis"></td>
+                    </tr>
+                    <tr>
+                        <td class="file_pdf_last"><img class="inbox" src="png/inbox.png" alt="inbox"> File.pdf</td>
+                        <td class="data_last">few seconds ago <img class="ellipsis" src="png/ellipsis.png" alt="ellipsis"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
 </body>
+
 </html>
