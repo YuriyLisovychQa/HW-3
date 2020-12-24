@@ -3,15 +3,6 @@
     padding: 0;
 }
 
-/* body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #2C2C2C;
-    color: #777;
-} */
-
 body {
     background-color: #2b2a2a;
     color: lightgrey;
@@ -34,10 +25,11 @@ body {
     margin-bottom: 20px;
 }
 
-.file {
-    border-bottom: 1px solid lightslategray;
+.file_pdf {
     padding: 20px;
     text-align: left;
+    border-bottom: 1px solid lightslategray;
+    width: 40%;
 }
 
 .table_name {
@@ -57,17 +49,12 @@ body {
     border-bottom: 1px solid lightslategray;
     text-align: left;
     padding: 20px;
+    width: 40%;
 }
 
 .data_last {
     text-align: left;
     padding: 20px;
-}
-
-.file_pdf {
-    text-align: left;
-    padding: 20px;
-    border-bottom: 1px solid lightslategray;
 }
 
 .file_pdf_last {
@@ -81,7 +68,30 @@ body {
     border: 0;
     height: 35px;
     min-width: 44px;
-    width: 50%;
+    width: 100%;
     border-radius: 5px;
-    padding-left: 5px;
+}
+
+.search {
+    border-bottom: 1px solid lightslategray;
+    text-align: right;
+    padding: 20px;
+    width: 20%;
+}
+
+.ellipsis {
+    border-bottom: 1px solid lightslategray;
+    text-align: right;
+    padding: 20px;
+}
+
+.ellipsis_last {
+    text-align: right;
+    padding: 20px;
+}
+
+.ellipsis_top {
+    padding: 20px;
+    border-bottom: 1px solid lightslategray;
+    text-align: right;
 }
