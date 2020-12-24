@@ -62,7 +62,7 @@ body {
     padding: 20px;
 }
 
-.table-form__search {
+.table_form__search {
     background: #444444;
     color: #7F7F7F;
     border: 0;
@@ -70,6 +70,7 @@ body {
     min-width: 44px;
     width: 100%;
     border-radius: 5px;
+    text-align: center;
 }
 
 .search {
@@ -95,3 +96,21 @@ body {
     border-bottom: 1px solid lightslategray;
     text-align: right;
 }
+
+
+
+.search_form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    padding: 0 10px 0 15px;
+    border-radius: 5px;
+    background: rgb(70, 69, 69);
+    padding: 5px;
+}
+
+
+
+------------------
+
