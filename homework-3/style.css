@@ -25,41 +25,27 @@ body {
     margin-bottom: 20px;
 }
 
-.file_pdf {
-    padding: 20px;
-    text-align: left;
+tr.table_row td, th {
     border-bottom: 1px solid lightslategray;
-    width: 40%;
+    padding: 20px;
+}
+
+tr.last_line td {
+    padding: 20px;
 }
 
 .table_name {
-    border-bottom: 1px solid lightslategray;
-    padding: 20px;
     text-align: left;
 }
 
 .table_data {
-    border-bottom: 1px solid lightslategray;
-    padding: 20px;
     text-align: left;
     width: 471px;
 }
 
 .data {
-    border-bottom: 1px solid lightslategray;
     text-align: left;
-    padding: 20px;
     width: 40%;
-}
-
-.data_last {
-    text-align: left;
-    padding: 20px;
-}
-
-.file_pdf_last {
-    text-align: left;
-    padding: 20px;
 }
 
 .table_form__search {
@@ -70,47 +56,54 @@ body {
     min-width: 44px;
     width: 100%;
     border-radius: 5px;
-    text-align: center;
+    text-align: left;
+    padding: 10px;
 }
 
 .search {
-    border-bottom: 1px solid lightslategray;
     text-align: right;
-    padding: 20px;
-    width: 20%;
+    padding: 10px 20px 10px 15px;
+    width: 100%;
 }
 
-.ellipsis {
-    border-bottom: 1px solid lightslategray;
-    text-align: right;
-    padding: 20px;
-}
-
-.ellipsis_last {
-    text-align: right;
-    padding: 20px;
-}
-
-.ellipsis_top {
-    padding: 20px;
-    border-bottom: 1px solid lightslategray;
+.dotted_menu {
     text-align: right;
 }
-
-
 
 .search_form {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 50%;
+    width: 100%;
     padding: 0 10px 0 15px;
     border-radius: 5px;
     background: rgb(70, 69, 69);
     padding: 5px;
 }
 
+img.table_form_img {
+    padding: 20px;
+    max-width: 5px;
+    max-height: 5px;
+    background-color: yellow;
+}
 
+td.meatball_menu {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 900;
+}
 
-------------------
+.caret-down {
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+}
 
+td.meatball_menu.filter {
+    color: #5e5d5c;
+}
+
+.filter {
+    color: #5e5d5c;
+}
